@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fff7e8">
+  <meta name="description" content="Груминг собак и кошек рядом с метро Выхино. Стрижка, уход и экспресс-линька в салоне «Красивый хвостик». Запись в удобном мессенджере.">
+  <title>Красивый хвостик — груминг рядом с метро Выхино</title>
+  <link rel="icon" href="assets/logo.webp">
+  <link rel="preload" as="image" href="assets/work-03.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Красивый хвостик, на главную">
+        <img src="assets/logo.webp" alt="Логотип Красивый хвостик" width="52" height="52">
+        <span><strong>Красивый хвостик</strong><small>груминг собак и кошек</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a><a href="#works">Наши работы</a><a href="#reviews">Отзывы</a><a href="#booking">Telegram</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="button button-small header-cta" href="#booking">Записаться</a>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+    </div>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильная навигация">
+      <a href="#services">Услуги</a><a href="#works">Наши работы</a><a href="#reviews">Отзывы</a><a href="#booking">Telegram</a><a href="#contacts">Контакты</a><a class="button" href="#booking">Записаться</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-glow hero-glow-one"></div><div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <a class="rating-chip" href="https://yandex.ru/maps/org/krasivy_khvostik/186139407889?si=fm9tp8vvc9f2rfknt9zytwz5ww" target="_blank" rel="noopener">
+            <span class="rating-star">★</span><strong>5,0 на Яндекс Картах</strong><span>· 164 отзыва</span>
+          </a>
+          <p class="eyebrow">Груминг в Вешняках</p>
+          <h1>Красота и забота для каждого <em>хвостика</em></h1>
+          <p class="hero-lead">Стрижка, уход и экспресс-линька для собак и кошек в Вешняках. Бережно относимся к питомцам и создаём результат, который радует хозяев.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/79252647904" target="_blank" rel="noopener">Записаться в WhatsApp <span>↗</span></a>
+            <a class="button button-light" href="#services">Посмотреть услуги</a>
+          </div>
+          <p class="location-note"><span>●</span> Москва, рядом с метро <strong>Выхино</strong></p>
+        </div>
+        <div class="hero-visual" aria-label="Работа груминг-салона Красивый хвостик">
+          <div class="hero-image-wrap"><img src="assets/work-03.webp" alt="Ухоженный шпиц после груминга" width="726" height="969"></div>
+          <div class="floating-card"><span class="paw">●</span><div><strong>Бережный уход</strong><small>для собак и кошек</small></div></div>
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div><p class="eyebrow">Услуги и цены</p><h2>Прайс без лишних таблиц</h2></div>
+          <p>Выберите категорию или найдите породу. На телефоне карточки удобно листать и читать.</p>
+        </div>
+        <div class="price-tools">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="price-search" type="search" placeholder="Поиск по породе или услуге" autocomplete="off"><button id="clear-search" type="button" aria-label="Очистить поиск">×</button></label>
+          <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Категории прайса"></div>
+        </div>
+        <div class="price-meta"><p id="price-title"></p><span id="price-note"></span></div>
+        <div class="price-grid" id="price-grid" aria-live="polite"></div>
+        <p class="price-disclaimer">Итоговая стоимость может зависеть от состояния шерсти и особенностей питомца. Все цены перенесены из действующего прайса салона.</p>
+        <div class="not-found-cta"><div><strong>Не нашли породу?</strong><span>Уточним стоимость и подберём подходящий уход.</span></div><a class="button button-dark" href="#booking">Уточнить стоимость</a></div>
+      </div>
+    </section>
+
+    <section class="section works" id="works">
+      <div class="container">
+        <div class="section-head"><div><p class="eyebrow">Наши работы</p><h2>Счастливые и ухоженные</h2></div><p>Только реальные фотографии питомцев салона. Нажмите на фото, чтобы рассмотреть результат крупнее.</p></div>
+        <div class="gallery" id="gallery">
+          <button class="gallery-item tall" data-src="assets/work-01.webp"><img src="assets/work-01.webp" alt="Пудель после груминга" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-02.webp"><img src="assets/work-02.webp" alt="Шелти после ухода" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-03.webp"><img src="assets/work-03.webp" alt="Шпиц после груминга" loading="lazy"></button>
+          <button class="gallery-item wide" data-src="assets/work-13.webp"><img src="assets/work-13.webp" alt="Два питомца после экспресс-линьки" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-04.webp"><img src="assets/work-04.webp" alt="Шпиц с бантом после ухода" loading="lazy"></button>
+          <button class="gallery-item tall" data-src="assets/work-05.webp"><img src="assets/work-05.webp" alt="Пудель после стрижки" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-06.webp"><img src="assets/work-06.webp" alt="Корги после экспресс-линьки" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-07.webp"><img src="assets/work-07.webp" alt="Собака после экспресс-линьки" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-08.webp"><img src="assets/work-08.webp" alt="Лабрадор после экспресс-линьки" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-09.webp"><img src="assets/work-09.webp" alt="Шпиц в груминг-салоне" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-10.webp"><img src="assets/work-10.webp" alt="Гриффон после груминга" loading="lazy"></button>
+          <button class="gallery-item" data-src="assets/work-11.webp"><img src="assets/work-11.webp" alt="Корги после вычёсывания" loading="lazy"></button>
+          <button class="gallery-item wide" data-src="assets/work-12.webp"><img src="assets/work-12.webp" alt="Сенбернар после ухода" loading="lazy"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="container reviews-card">
+        <div class="review-score"><span>5,0</span><div class="stars">★★★★★</div><small>164 отзыва</small></div>
+        <div class="review-copy"><p class="eyebrow">Отзывы на Яндекс Картах</p><h2>Нам доверяют хвостики и их хозяева</h2><p>Высшая оценка — лучший знак того, что питомцам у нас спокойно, а хозяев радует результат.</p><a class="button button-primary" href="https://yandex.ru/maps/org/krasivy_khvostik/186139407889?si=fm9tp8vvc9f2rfknt9zytwz5ww" target="_blank" rel="noopener">Смотреть отзывы на Яндекс Картах <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="container booking-card">
+        <div><p class="eyebrow">Удобная запись</p><h2>Запишите питомца на уход</h2><p>Выберите привычный мессенджер — ответим, уточним породу и предложим удобное время.</p></div>
+        <div class="messenger-buttons">
+          <a class="messenger whatsapp" href="https://wa.me/79252647904" target="_blank" rel="noopener"><span>W</span><div><strong>WhatsApp</strong><small>Написать</small></div><b>↗</b></a>
+          <a class="messenger telegram" href="tg://resolve?phone=79252647904"><span>T</span><div><strong>Telegram</strong><small>По номеру телефона</small></div><b>↗</b></a>
+          <a class="messenger max" href="https://max.ru/u/f9LHodD0cOIjqaDGuu5gp8OhH8n9749LyKvI5TSdKjPgU_qM4KabucuoSus" target="_blank" rel="noopener"><span>M</span><div><strong>MAX</strong><small>Написать</small></div><b>↗</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="container contact-grid">
+        <div class="contact-copy"><p class="eyebrow">Контакты</p><h2>Ждём вас рядом с метро Выхино</h2><p class="contact-lead">Удобно добраться из Вешняков — салон находится <strong>рядом с метро Выхино</strong>.</p>
+          <div class="contact-list">
+            <div><span>⌖</span><p><small>Адрес</small><strong>Москва, Вешняковская улица, 39Г, стр. 2</strong></p></div>
+            <div><span>◷</span><p><small>График</small><strong>10:00–21:00</strong><em>Вторник — выходной</em></p></div>
+            <div><span>☎</span><p><small>Телефон</small><a href="tel:+79252647904">+7 925 264-79-04</a></p></div>
+          </div>
+          <div class="contact-actions"><a class="button button-primary" href="https://yandex.ru/maps/org/krasivy_khvostik/186139407889?si=fm9tp8vvc9f2rfknt9zytwz5ww" target="_blank" rel="noopener">Открыть в Яндекс Картах ↗</a><a class="text-link" href="https://t.me/krasivyi_hvostikk" target="_blank" rel="noopener">Наш Telegram-канал ↗</a></div>
+        </div>
+        <div class="map-card"><iframe title="Красивый хвостик на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?z=16&ol=biz&oid=186139407889" loading="lazy" allowfullscreen></iframe><div class="map-label"><strong>Красивый хвостик</strong><span>рядом с метро Выхино</span></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#top"><img src="assets/logo.webp" alt="" width="48" height="48"><span><strong>Красивый хвостик</strong><small>груминг собак и кошек</small></span></a><p>Москва, Вешняковская улица, 39Г, стр. 2<br><strong>Рядом с метро Выхино</strong></p><a href="tel:+79252647904">+7 925 264-79-04</a></div></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографии" hidden><button type="button" class="lightbox-close" aria-label="Закрыть">×</button><button type="button" class="lightbox-prev" aria-label="Предыдущее фото">‹</button><img src="" alt="Увеличенная фотография работы салона"><button type="button" class="lightbox-next" aria-label="Следующее фото">›</button></div>
+  <a class="mobile-book" href="#booking">Записаться</a>
+</body>
+</html>
